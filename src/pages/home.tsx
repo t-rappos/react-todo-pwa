@@ -1,11 +1,10 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-
+import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 const Home = () => (
     <div className="App">
       <div className="App-header">
-        <h2>{"Motivator"}</h2>
+        <h2>{'Motivator'}</h2>
       </div>
       <p className="App-intro">
         This is the home page.

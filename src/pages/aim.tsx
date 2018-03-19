@@ -1,8 +1,8 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import * as React from 'react';
+import { Link } from 'react-router-dom';
 
-
-function createLink1(aimNumber){
+/*
+function createLink1(aimNumber: number){
   const links = [1,2,3];
   links[aimNumber] = -1;
   links.forEach(element => {
@@ -29,6 +29,7 @@ const Aim = ({aimTitle, aimNumber}) => (
       </p>
     </div>
 );
+*/
 
 const Aim1 = () => (
   <div className="App">
@@ -45,7 +46,7 @@ const Aim1 = () => (
         <Link to="/aim3">Aim3</Link>
       </p>
     </div>
-)
+);
 
 const Aim2 = () => (
   <div className="App">
@@ -62,7 +63,7 @@ const Aim2 = () => (
         <Link to="/aim3">Aim3</Link>
       </p>
     </div>
-)
+);
 
 const Aim3 = () => (
   <div className="App">
@@ -79,6 +80,6 @@ const Aim3 = () => (
         <Link to="/aim2">Aim2</Link>
       </p>
     </div>
-)
+);
 
 export {Aim1, Aim2, Aim3};
