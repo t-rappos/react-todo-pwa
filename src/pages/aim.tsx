@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import TitleBar from './title-bar';
 
 /*
 function createLink1(aimNumber: number){
@@ -33,9 +34,7 @@ const Aim = ({aimTitle, aimNumber}) => (
 
 const Aim1 = () => (
   <div className="App">
-      <div className="App-header">
-        <h2>Aim1</h2>
-      </div>
+      <TitleBar activeItem="aim1"/>
       <p className="App-intro">
         This is the Aim1 page.
       </p>
@@ -50,9 +49,7 @@ const Aim1 = () => (
 
 const Aim2 = () => (
   <div className="App">
-      <div className="App-header">
-        <h2>Aim2</h2>
-      </div>
+      <TitleBar activeItem="aim2"/>
       <p className="App-intro">
         This is the Aim2 page.
       </p>
@@ -67,9 +64,7 @@ const Aim2 = () => (
 
 const Aim3 = () => (
   <div className="App">
-      <div className="App-header">
-        <h2>Aim3</h2>
-      </div>
+      <TitleBar activeItem="aim3"/>
       <p className="App-intro">
         This is the Aim3 page.
       </p>

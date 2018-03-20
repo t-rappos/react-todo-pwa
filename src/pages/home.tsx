@@ -1,11 +1,10 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
+import TitleBar from './title-bar';
 
 const Home = () => (
     <div className="App">
-      <div className="App-header">
-        <h2>{'Motivator'}</h2>
-      </div>
+      <TitleBar activeItem="home"/>
       <p className="App-intro">
         This is the home page.
       </p>
@@ -22,3 +21,9 @@ const Home = () => (
 );
 
 export default Home;
+
+/*
+      <div className="App-header">
+        <h2>{'Motivator'}</h2>
+      </div>
+       */
